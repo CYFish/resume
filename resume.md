@@ -11,56 +11,33 @@ Data engineer with 1.5 years of experience and 6+ years in engineering, now focu
 
 *Titansoft, Taiwan | Oct 2023–present*
 
-- Data Platform Management
-    - Manage BigQuery datasets, permissions, and access control across teams with Git version control
-    - Automate permission tracking with GitLab CI/CD and publish matrices to Google Sheets for easy access requests
-    - Perform data quality checks, including freshness, consistency, and retention
-    - Monitor query costs and help analysts improve query performance
-    - Provide an AI review bot to check SQL scripts against DE standards
-- Workflow Orchestration
-    - Build a centralized Apache Airflow instance for analysts to create and run pipelines independently (in progress)
-    - Design DAG templates to standardize ETL patterns and reduce errors
-- System Maintenance & Optimization
-    - Maintain and monitor Tableau Server health and performance
-    - Work with data analysts to optimize slow dashboards and SQL queries
-- Internal Tools & Integration
-    - Develop Slack bots to automate notifications for GitLab commits and pipeline results
-    - Design clear, safe message formats to notify non-technical users of code issues
+- Manage and maintain BigQuery datasets, access controls, and permissions for 8 departments using Git-based version control to ensure data security and consistency
+- Automate permission auditing and tracking through GitLab CI/CD pipelines, publishing detailed access matrices to Google Sheets for efficient request management
+- Perform comprehensive data quality checks, including freshness, consistency, and retention metrics, to guarantee reliable data delivery
+- Develop AI-driven SQL review workflows by designing prompt files for the Cursor agent, enabling interactive, real-time SQL code review and enforcement of coding standards
+- Implement AD authentication for the new Airflow platform, enhancing secure user access and department-level permission management
+- Create reusable, standardized DAG templates to improve development efficiency and minimize operational errors
+- Oversee Tableau Server health and performance; collaborate with business users to optimize slow-running dashboards, reducing query execution time from 37 minutes to 13 seconds
+- Create a Python package that simplifies Slack API integration and allows for well-formatted message delivery, used in production workflows to automate alerts for errors and data quality issues
+- Promote team-wide standardization of data platform operations and best practices to improve efficiency and maintainability
 
 ### Diagnostic Software Engineer
 
 *Hon Hai Precision Industry Co., Ltd., Taiwan | Mar 2021–Sep 2023*
 
-- Existing Project Maintenance
-    - Find a network issue on the product which lasted for over 3 years
-    - Provide a gateway for users in different factories
-    - Refactor and apply PEP8 to the existing codebase to enhance code readability
-    - Add exception handling to prevent the program from crashing
-- Base Program Development
-    - Design a project structure which modulizes the features and assigns different test items to stations in a single program
-    - Develop a GUI tool to visualize the hardware status with PySide2
+- Identified and resolved a long-standing network instability issue, reducing failure rate from 10% to zero across 1,000 test cycles, significantly improving product reliability
+- Refactored legacy Python codebase to comply with PEP8 standards, reducing feature comprehension time from 4 hours to 30 minutes and improving maintainability
+- Developed real-time hardware visualization tools using PySide2, enhancing diagnostic accuracy and user experience
+- Improved software robustness by implementing comprehensive exception handling, preventing crashes and increasing system stability
 
 ### Senior System Integration Engineer
 
 *Delta Electronics, Inc., Taiwan | Sep 2018–Feb 2021*
 
-- System Analysis and System Design | 2019–2021
-    - MES for a laminate factory
-        - Design a material input module and show the material BOM corresponding to the product
-        - Create quality control lots with different inspection plans based on the status of the work order
-        - Get and display the machine's parameters and highlight any values outside of the normal range
-    - WMS for a network communication equipment factory
-        - Design the shipping module to control the warehouse operations
-    - MES for a food factory
-        - Check the expiration date of items and display them in FIFO order
-        - Design production reports monitoring ‌labor efficiency
-        - Design a dashboard to visualize the inventory position and status
-- Development | 2018–2020
-    - MES for a wafer factory
-        - Customize the quality control module to send data and obtain inspection results by the SFC APIs
-        - Sync the inspection specifications with SPC hourly
-        - Generate the inventory on ERP after shipping out the items
-
+- Customized MES and WMS modules for clients including a chip manufacturer (1000+ users) and a food factory (500+ users), improving operational efficiency
+- Designed interactive dashboards and reports used by management teams to enable data-driven decision making on production and inventory
+- Implemented real-time data synchronization with external APIs and ERP systems, reducing manual intervention and streamlining workflows
+- Worked closely with stakeholders to customize systems for business needs, enhancing operational outcomes and user satisfaction
 
 
 ## EDUCATION
