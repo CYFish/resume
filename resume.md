@@ -55,25 +55,27 @@ GPA `3.78 / 4.0`
 GPA `3.25 / 4.0`
 
 
-
 ## SKILLS
 
-### Programming Language
+### Languages & Tools
 
-- C#
-- Python
+Python, SQL (BigQuery, MS SQL, PostgreSQL), Bash, Git, GitLab CI/CD, Markdown, YAML
 
-### Database
+### Data Engineering
 
-- BigQuery
-- Microsoft SQL
-- Oracle
-- PostgreSQL
+BigQuery (dataset design, IAM), Apache Airflow (DAG development and templating, AD authentication), Cloud Functions, Pub/Sub, Cloud Scheduler, Data quality checks (freshness, consistency, retention)
 
-### Language
+### Automation & Internal Tools
 
-- Chinese (native speaker)
-- English (conversational)
+Slack bot development (custom Python SDK), Git-based permission matrix automation, Git-integrated asset management workflows
+
+### Data Visualization & BI
+
+Tableau (dashboard optimization), Google Sheets automation, SQL query tuning for BI reporting
+
+### Collaboration & Communication
+
+Cross-team collaboration (DS/BA/IT), Documentation, Stakeholder engagement, Training and onboarding support
 
 
 ## VOLUNTEER EXPERIENCE
