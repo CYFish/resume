@@ -2,7 +2,7 @@
 
 ## SUMMARY
 
-Data Engineer with 1.5 years of experience building reliable, scalable data platforms on the cloud. Accelerated development and improved data reliability by designing reusable workflows and automation tools. Skilled in managing data warehouses, orchestrating ETL pipelines, and enabling secure data access across departments. Known for bridging engineering and analytics through clear communication and scalable solutions. Proficient in tools such as BigQuery and Apache Airflow, with a strong focus on operational excellence and platform usability.
+Data Engineer with 1.5 years of experience and 6+ years in engineering, now focused on  building reliable, scalable data platforms on the cloud. Accelerated development and improved data reliability by designing reusable workflows and automation tools. Skilled in managing data warehouses, orchestrating ETL pipelines, and enabling secure data access across departments. Known for bridging engineering and analytics through clear communication and scalable solutions. Proficient in tools such as BigQuery and Apache Airflow, with a strong focus on operational excellence and platform usability.
 
 
 ## WORK EXPERIENCE
@@ -63,8 +63,8 @@ _Delta Electronics, Taiwan | Sep 2018–Feb 2021_
 
 ### PyCon Taiwan
 
-- **Program Events Lead (2024)**: Led 5-person team for Lightning Talks, PyNight, Open Space
-- **Venue Lead (2022–2023)**: Managed 15 volunteers, ensured smooth logistics and hybrid ops
+- Program Events Lead (2024): Led 5-person team for Lightning Talks, PyNight, Open Space
+- Venue Lead (2022–2023): Managed 15 volunteers, ensured smooth logistics and hybrid ops
 - Boosted volunteer retention to 80% through regular engagement and mentoring
 - Coordinated cross-team collaboration to resolve inter-group dependencies
 
