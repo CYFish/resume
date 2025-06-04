@@ -1,4 +1,4 @@
-# 林真瑜 Lucy Lin
+# Lucy Lin
 
 ## SUMMARY
 
