@@ -82,19 +82,9 @@ Cross-team collaboration (DS/BA/IT), Documentation, Stakeholder engagement, Trai
 
 ### PyCon Taiwan
 
-*2020–present*
+The largest annual Python conference in Taiwan, with 600+ attendees and ~100 volunteers
 
-- Program Events Lead at PyCon TW 2024
-    - Coordinated community events including Lightning Talk, Open Space, Poster Session, PyNight, Speakers' Dinner, and Sprints
-    - Managed cross-team communication and ensured on-time volunteer logistics
-    - Collaborated with design and web teams to create social media promotion materials and to update event info on the website
-- Venue Team Lead at PyCon TW 2023
-    - Rent the venue and plan the space layout and flow
-    - Confirm the implementation details of networking and talks broadcasting with the suppliers
-    - Arrange meals, transportation, and accommodations
-    - Draft and review the traffic information of the venue
-- Venue Team Lead at PyCon APAC 2022
-    - Propose and design the layout of [the venue](https://conf.python.tw/gather-town-building.html) built on Gather
-    - Discuss and test [the booth game](https://docs.google.com/presentation/d/1Vwi9Im1_rQT_cmUtNQofMFjyhz-wqvbVetWuAAoZee8/preview) implemented on Gather and Discord
-    - Manage the design schedule of the souvenir and confirm the specifications and the quantity with the suppliers
-    - Organize an English study circle and team buildings to foster the cohesiveness
+- **Program Events Team Lead (2024)**: Led a team of five to organize community activities like Lightning Talks and PyNight, and worked with design and web teams for promotion and logistics.
+- **Venue Team Lead (2022–2023)**: Managed a team of 15 for venue operations, covering floor planning, vendor relations, and logistics for both in-person and virtual events.
+- **Volunteer Engagement**: Achieved an 80% volunteer retention rate, the highest among teams, through one-on-one meetings, team outings, and engagement events
+- **Cross-team Collaboration**: Held planning meetings to align tasks and resolve issues among different volunteer teams
