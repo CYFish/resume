@@ -1,90 +1,75 @@
-
 # 林真瑜 Lucy Lin
 
 ## SUMMARY
 
-Data Engineer with 1.5 years of dedicated experience building and optimizing robust data platforms on GCP, backed by 6+ years in diverse engineering roles. Proficient in managing TB-scale BigQuery data warehousing, orchestrating complex ETL/ELT workflows with Apache Airflow, and implementing secure data access controls. Proven ability to develop innovative internal tools and automation that enhance cross-functional collaboration, improve data quality, and drive engineering efficiency, including AI-driven workflow optimizations. Known for bridging technical and analytical teams through clear communication and impactful automation solutions.
+Data Engineer with 1.5 years of experience building reliable, scalable data platforms on the cloud. Accelerated development and improved data reliability by designing reusable workflows and automation tools. Skilled in managing data warehouses, orchestrating ETL pipelines, and enabling secure data access across departments. Known for bridging engineering and analytics through clear communication and scalable solutions. Proficient in tools such as BigQuery and Apache Airflow, with a strong focus on operational excellence and platform usability.
+
 
 ## WORK EXPERIENCE
 
 ### Data Engineer
 
-*Titansoft, Taiwan | Oct 2023–present*
+_Titansoft, Taiwan | Oct 2023–present_
 
-- Manage and maintain BigQuery datasets, access controls, and permissions for 8 departments using Git-based version control to ensure data security and consistency
-- Automate permission auditing and tracking through GitLab CI/CD pipelines, publishing detailed access matrices to Google Sheets for efficient request management
-- Perform comprehensive data quality checks, including freshness, consistency, and retention metrics, to guarantee reliable data delivery
-- Develop AI-driven SQL review workflows by designing prompt files for the Cursor agent, enabling interactive, real-time SQL code review and enforcement of coding standards
-- Implement AD authentication for the new Airflow platform, enhancing secure user access and department-level permission management
-- Create reusable, standardized DAG templates to improve development efficiency and minimize operational errors
-- Oversee Tableau Server health and performance; collaborate with business users to optimize slow-running dashboards, reducing query execution time from 37 minutes to 13 seconds
-- Create a Python package that simplifies Slack API integration and allows for well-formatted message delivery, used in production workflows to automate alerts for errors and data quality issues
-- Promote team-wide standardization of data platform operations and best practices to improve efficiency and maintainability
+**Data Platform & Access Control**
+- Managed 150+ tables (hundreds of GB to TB scale) across 8 departments via Git-based workflows for version-controlled asset and permission management
+- Led data governance initiatives by implementing CI/CD pipelines for access audit and matrix publishing, automating permission tracking and department-level review
+
+**Cost Efficiency & Query Optimization**
+- Reduced data processed from 500 GB to <1 GB by applying partitioning, clustering, and SQL refactoring
+- Optimized Tableau dashboard performance, improving extract time from 37 minutes to 13 seconds and reducing server CPU load
+
+**Pipeline Engineering & Data Quality**
+- Built robust data pipelines ingesting from SQL Server, Parquet files, and Pub/Sub, with cold storage backup in GCS
+- Designed and deployed freshness and consistency checks, enabling real-time alerts and proactive anomaly resolution
+
+**Workflow Automation & AI Integration**
+- Cut development time for data checks from 4 hours to 30 minutes by building reusable DAG templates and integrating AI-assisted logic design
+- Reduced manual SQL review time by 30 minutes per procedure using standardized quality rules and AI-powered review bots
+- Integrated self-hosted Airflow with Active Directory to enforce department-based access control and secure authentication
+
+**Internal Tools & Developer Enablement**
+- Developed and maintained Python SDK for Slack alerts, seamlessly integrated into production pipelines
+- Extended BigQuery Client Library to support internal analytics and engineering workflows
+- Standardized development practices across the team, improving productivity and shortening onboarding for new engineers
+
 
 ### Diagnostic Software Engineer
 
-*Hon Hai Precision Industry Co., Ltd., Taiwan | Mar 2021–Sep 2023*
-
-- Identified and resolved a long-standing network instability issue, reducing failure rate from 10% to zero across 1,000 test cycles, significantly improving product reliability
-- Refactored legacy Python codebase to comply with PEP8 standards, reducing feature comprehension time from 4 hours to 30 minutes and improving maintainability
-- Developed real-time hardware visualization tools using PySide2, enhancing diagnostic accuracy and user experience
-- Improved software robustness by implementing comprehensive exception handling, preventing crashes and increasing system stability
+_Hon Hai Precision Industry, Taiwan | Mar 2021–Sep 2023_
+- Resolved long-standing network bug, reducing 10% failure rate to 0% across 1,000 test cycles
+- Refactored legacy Python code with PEP8 and added exception handling, improving stability and maintainability
+- Built PySide2 hardware visualization tools to enhance debugging efficiency
 
 ### Senior System Integration Engineer
 
-*Delta Electronics, Inc., Taiwan | Sep 2018–Feb 2021*
-
-- Customized MES and WMS modules for clients including a chip manufacturer (1000+ users) and a food factory (500+ users), improving operational efficiency
-- Designed interactive dashboards and reports used by management teams to enable data-driven decision making on production and inventory
-- Implemented real-time data synchronization with external APIs and ERP systems, reducing manual intervention and streamlining workflows
-- Worked closely with stakeholders to customize systems for business needs, enhancing operational outcomes and user satisfaction
-
-
-## EDUCATION
-
-### M.S., Institute of Information Management
-
-*National Cheng Kung University, Taiwan | Sep 2016–Aug 2018*
-
-GPA `3.78 / 4.0`
-
-### B.S., Department of Industrial and Information Management
-
-*National Cheng Kung University, Taiwan | Sep 2012–Jun 2016*
-
-GPA `3.25 / 4.0`
+_Delta Electronics, Taiwan | Sep 2018–Feb 2021_
+- Implemented MES/WMS systems for 1,000+ user factories, improving operations
+- Designed data structures and dashboards for production reports, enabling data-driven decisions
+- Automated cross-system data sync with ERP via APIs, reducing manual data entry
+- Collaborated with stakeholders to customize systems, enhancing operational outcomes and user satisfaction
 
 
 ## SKILLS
 
-### Languages & Tools
-
-Python, SQL (BigQuery, MS SQL, PostgreSQL), Bash, Git, GitLab CI/CD, Markdown, YAML
-
-### Data Engineering
-
-BigQuery (dataset design, IAM), Apache Airflow (DAG development and templating, AD authentication), Cloud Functions, Pub/Sub, Cloud Scheduler, Data quality checks (freshness, consistency, retention)
-
-### Automation & Internal Tools
-
-Slack bot development (custom Python SDK), Git-based permission matrix automation, Git-integrated asset management workflows
-
-### Data Visualization & BI
-
-Tableau (dashboard optimization), Google Sheets automation, SQL query tuning for BI reporting
-
-### Collaboration & Communication
-
-Cross-team collaboration (DS/BA/IT), Documentation, Stakeholder engagement, Training and onboarding support
+- **Programming & Tools**: Python, SQL (BigQuery, MS SQL), Bash, Git, YAML, Markdown
+- **Cloud & Data Engineering**: BigQuery, Apache Airflow, Pub/Sub, Cloud Functions, Cloud Scheduler, Cloud Logging
+- **Automation & Developer Tools**: Slack bot SDK, Git-based permission workflows, BigQuery Client Library, reusable DAG templates
+- **BI & Optimization**: Tableau (dashboard tuning), SQL performance tuning, cost-efficient data modeling
+- **Collaboration & Enablement**: Documentation, stakeholder alignment, cross-team training, platform standardization
 
 
 ## VOLUNTEER EXPERIENCE
 
 ### PyCon Taiwan
 
-The largest annual Python conference in Taiwan, with 600+ attendees and ~100 volunteers
+- **Program Events Lead (2024)**: Led 5-person team for Lightning Talks, PyNight, Open Space
+- **Venue Lead (2022–2023)**: Managed 15 volunteers, ensured smooth logistics and hybrid ops
+- Boosted volunteer retention to 80% through regular engagement and mentoring
+- Coordinated cross-team collaboration to resolve inter-group dependencies
 
-- **Program Events Team Lead (2024)**: Led a team of five to organize community activities like Lightning Talks and PyNight, and worked with design and web teams for promotion and logistics.
-- **Venue Team Lead (2022–2023)**: Managed a team of 15 for venue operations, covering floor planning, vendor relations, and logistics for both in-person and virtual events.
-- **Volunteer Engagement**: Achieved an 80% volunteer retention rate, the highest among teams, through one-on-one meetings, team outings, and engagement events
-- **Cross-team Collaboration**: Held planning meetings to align tasks and resolve issues among different volunteer teams
+
+## EDUCATION
+
+**M.S., Information Management**, National Cheng Kung University  
+**B.S., Industrial and Information Management**, National Cheng Kung University
