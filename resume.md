@@ -3,7 +3,7 @@
 
 ## SUMMARY
 
-Data engineer with 1.5 years of experience and 6+ years in engineering, now focused on building reliable data platforms on GCP. Skilled in managing BigQuery, orchestrating ETL workflows with Airflow, and enabling secure data access across teams. Experienced in building internal tools that improve collaboration between engineering and analytics. Known for bridging engineering and analytics teams through clear communication and practical automation.
+Data Engineer with 1.5 years of dedicated experience building and optimizing robust data platforms on GCP, backed by 6+ years in diverse engineering roles. Proficient in managing TB-scale BigQuery data warehousing, orchestrating complex ETL/ELT workflows with Apache Airflow, and implementing secure data access controls. Proven ability to develop innovative internal tools and automation that enhance cross-functional collaboration, improve data quality, and drive engineering efficiency, including AI-driven workflow optimizations. Known for bridging technical and analytical teams through clear communication and impactful automation solutions.
 
 ## WORK EXPERIENCE
 
