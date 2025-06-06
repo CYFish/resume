@@ -2,7 +2,7 @@
 
 ## SUMMARY
 
-Data Engineer with 1.5 years of experience and 6+ years in engineering, now focused on  building reliable, scalable data platforms on the cloud. Accelerated development and improved data reliability by designing reusable workflows and automation tools. Skilled in managing data warehouses, orchestrating ETL pipelines, and enabling secure data access across departments. Known for bridging engineering and analytics through clear communication and scalable solutions. Proficient in tools such as BigQuery and Apache Airflow, with a strong focus on operational excellence and platform usability.
+Data Engineer with 1.5 years of experience and 6+ years in engineering, now focused on building reliable, scalable data platforms on the cloud. Accelerated development and improved data reliability by designing reusable workflows and automation tools. Skilled in managing data warehouses, orchestrating ETL pipelines, and enabling secure data access across departments. Known for bridging engineering and analytics through clear communication and scalable solutions. Proficient in tools such as BigQuery and Apache Airflow, with a strong focus on operational excellence and platform usability.
 
 
 ## WORK EXPERIENCE
