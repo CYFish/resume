@@ -14,7 +14,7 @@ _Titansoft, Taiwan | Oct 2023–present_
 #### Data Platform & Access Control
 
 - Managed 150+ tables (hundreds of GB to TB scale) across 8 departments via Git-based workflows for version-controlled asset and permission management
-- Led data governance initiatives by implementing CI/CD pipelines for access audit and matrix publishing, automating permission tracking and department-level review
+- Led data governance initiatives by implementing CI/CD pipelines for access audit and matrix publishing, automating permission tracking, and department-level review
 
 #### Cost Efficiency & Query Optimization
 
