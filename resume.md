@@ -2,7 +2,7 @@
 
 ## SUMMARY
 
-Data Engineer with 1.5 years of experience and 6+ years in engineering, now focused on  building reliable, scalable data platforms on the cloud. Accelerated development and improved data reliability by designing reusable workflows and automation tools. Skilled in managing data warehouses, orchestrating ETL pipelines, and enabling secure data access across departments. Known for bridging engineering and analytics through clear communication and scalable solutions. Proficient in tools such as BigQuery and Apache Airflow, with a strong focus on operational excellence and platform usability.
+Data Engineer with 1.5 years of experience and 6+ years in engineering, now focused on building reliable, scalable data platforms on the cloud. Accelerated development and improved data reliability by designing reusable workflows and automation tools. Skilled in managing data warehouses, orchestrating ETL pipelines, and enabling secure data access across departments. Known for bridging engineering and analytics through clear communication and scalable solutions. Proficient in tools such as BigQuery and Apache Airflow, with a strong focus on operational excellence and platform usability.
 
 
 ## WORK EXPERIENCE
@@ -11,24 +11,29 @@ Data Engineer with 1.5 years of experience and 6+ years in engineering, now focu
 
 _Titansoft, Taiwan | Oct 2023–present_
 
-**Data Platform & Access Control**
-- Managed 150+ tables (hundreds of GB to TB scale) across 8 departments via Git-based workflows for version-controlled asset and permission management
-- Led data governance initiatives by implementing CI/CD pipelines for access audit and matrix publishing, automating permission tracking and department-level review
+#### Data Platform & Access Control
 
-**Cost Efficiency & Query Optimization**
+- Managed 150+ tables (hundreds of GB to TB scale) across 8 departments via Git-based workflows for version-controlled asset and permission management
+- Led data governance initiatives by implementing CI/CD pipelines for access audit and matrix publishing, automating permission tracking, and department-level review
+
+#### Cost Efficiency & Query Optimization
+
 - Reduced data processed from 500 GB to <1 GB by applying partitioning, clustering, and SQL refactoring
 - Optimized Tableau dashboard performance, improving extract time from 37 minutes to 13 seconds and reducing server CPU load
 
-**Pipeline Engineering & Data Quality**
+#### Pipeline Engineering & Data Quality
+
 - Built robust data pipelines ingesting from SQL Server, Parquet files, and Pub/Sub, with cold storage backup in GCS
 - Designed and deployed freshness and consistency checks, enabling real-time alerts and proactive anomaly resolution
 
-**Workflow Automation & AI Integration**
+#### Workflow Automation & AI Integration
+
 - Cut development time for data checks from 4 hours to 30 minutes by building reusable DAG templates and integrating AI-assisted logic design
 - Reduced manual SQL review time by 30 minutes per procedure using standardized quality rules and AI-powered review bots
 - Integrated self-hosted Airflow with Active Directory to enforce department-based access control and secure authentication
 
-**Internal Tools & Developer Enablement**
+#### Internal Tools & Developer Enablement
+
 - Developed and maintained Python SDK for Slack alerts, seamlessly integrated into production pipelines
 - Extended BigQuery Client Library to support internal analytics and engineering workflows
 - Standardized development practices across the team, improving productivity and shortening onboarding for new engineers
