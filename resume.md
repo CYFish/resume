@@ -41,7 +41,7 @@ _Titansoft, Taiwan | Oct 2023–present_
 
 ### Diagnostic Software Engineer
 
-_Hon Hai Precision Industry, Taiwan | Mar 2021–Sep 2023_
+_Ingrasys, Taiwan | Mar 2021–Sep 2023_
 - Resolved long-standing network bug, reducing 10% failure rate to 0% across 1,000 test cycles
 - Refactored legacy Python code with PEP8 and added exception handling, improving stability and maintainability
 - Built PySide2 hardware visualization tools to enhance debugging efficiency
