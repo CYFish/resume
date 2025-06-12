@@ -20,7 +20,7 @@ Cloud-focused data engineer with experience in building scalable platforms and i
 ### Software Engineer, Ingrasys  
 *2021–2023 | Taiwan*
 
-- Resolved critical network bug, improving system reliability across 1,000+ test cycles
+- Resolved critical network bug, improving system reliability
 - Refactored legacy Python code to enhance maintainability
 
 
