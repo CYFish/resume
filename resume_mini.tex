@@ -1,0 +1,90 @@
+\documentclass[a4paper,10pt]{article}
+\usepackage[left=1.5cm,right=1.5cm,top=1.7cm,bottom=1.7cm]{geometry}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{xcolor}
+
+% Font
+\usepackage{fontspec}
+\setmainfont{Lato}
+\setsansfont{Lato}
+\newfontfamily\seriffont{Didot}
+
+% Earth tone colors
+\definecolor{gray}{HTML}{808080}
+\definecolor{earthgreen}{HTML}{556B2F}
+\definecolor{earthbrown}{HTML}{8B4513}
+\definecolor{earthorange}{HTML}{D2691E}
+\definecolor{earthyellow}{HTML}{DAA520}
+
+% Section styling
+\titleformat{\section}
+  {\large\bfseries\seriffont\color{earthgreen}}{}{0em}{}[\titlerule]
+\titleformat{\subsection}[block]
+  {\large\bfseries}{}{0em}{}
+
+% Custom item spacing
+\setlist[itemize]{leftmargin=1.5em, topsep=0.8em, itemsep=0.5em}
+
+% No indentation
+\setlength\parindent{0pt}
+
+% Hyperlink colors
+\hypersetup{
+    colorlinks=true,
+    urlcolor=earthbrown,
+    linkcolor=earthbrown
+}
+
+\pagestyle{empty} % Remove page numbers
+
+\begin{document}
+
+\begin{center}
+    {\Huge \textbf{Lucy Lin}} \\
+    \vspace{0.5em}
+    \href{mailto:lucylin0819@gmail.com}{lucylin0819@gmail.com} \\
+\end{center}
+
+\vspace{0.8em}
+
+\section*{PROFILE}
+Cloud-focused data engineer with experience in building scalable platforms and improving data reliability. Skilled in BigQuery, Airflow, and workflow automation. Bridge analytics and engineering through reusable tools and clear documentation.
+
+\section*{EXPERIENCE}
+
+\subsection*{Data Engineer, Titansoft}
+\textit{\color{gray}Oct 2023–Present}
+\begin{itemize}
+    \item Managed 150+ BigQuery assets across 8 departments using Git-based workflows
+    \item Built data pipelines and quality checks for SQL Server, Parquet, and Pub/Sub
+    \item Implemented IAM CI/CD and audit pipelines for department-level access reviews
+    \item Reduced Tableau extract time from 37 min to 13 sec by optimizing SQL and dashboard filters
+    \item Designed reusable Airflow DAGs and integrated AI tools to cut development time by 80\%
+\end{itemize}
+
+\subsection*{Software Engineer, Ingrasys}
+\textit{\color{gray}Mar 2021–Sep 2023}
+\begin{itemize}
+    \item Resolved critical network bug and improved system reliability
+    \item Refactored legacy Python code to enhance maintainability
+\end{itemize}
+
+\subsection*{System Integration Engineer, Delta Electronics}
+\textit{\color{gray}Sep 2018–Feb 2021}
+\begin{itemize}
+    \item Delivered MES/WMS systems for 1,000+ factory users
+    \item Automated ERP data integration, reducing manual processing time
+\end{itemize}
+
+\section*{SKILLS}
+BigQuery \quad Airflow \quad GCP \quad Python \quad SQL \quad Git
+
+\section*{EDUCATION}
+M.S. \& B.S., National Cheng Kung University
+
+\section*{VOLUNTEER}
+PyCon Taiwan – Venue \& Program Event Lead (2022–2024)
+
+\end{document}
