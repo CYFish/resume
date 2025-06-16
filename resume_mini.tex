@@ -1,5 +1,5 @@
-\documentclass[a4paper,10pt]{article}
-\usepackage[left=1.5cm,right=1.5cm,top=1.7cm,bottom=1.7cm]{geometry}
+\documentclass[a4paper,11pt]{article}
+\usepackage[left=2.5cm,right=2.5cm,top=2.5cm,bottom=2.5cm]{geometry}
 \usepackage{titlesec}
 \usepackage{enumitem}
 \usepackage{hyperref}
@@ -11,21 +11,24 @@
 \setsansfont{Lato}
 \newfontfamily\seriffont{Didot}
 
+% Icons
+\usepackage{fontawesome5}
+
 % Earth tone colors
-\definecolor{gray}{HTML}{808080}
-\definecolor{earthgreen}{HTML}{556B2F}
-\definecolor{earthbrown}{HTML}{8B4513}
-\definecolor{earthorange}{HTML}{D2691E}
-\definecolor{earthyellow}{HTML}{DAA520}
+\definecolor{gray}{HTML}{808080} % gray
+\definecolor{darkolivegreen}{HTML}{556B2F} % dark olive green
+\definecolor{olivedrabgreen}{HTML}{6B8E23} % olive drab green
+\definecolor{saddlebrown}{HTML}{8B4513} % saddle brown
+\definecolor{darkorange}{HTML}{FF8C00} % dark orange
 
 % Section styling
 \titleformat{\section}
-  {\large\bfseries\seriffont\color{earthgreen}}{}{0em}{}[\titlerule]
+  {\fontsize{16pt}{0.5em}\bfseries\seriffont\color{darkolivegreen}}{}{0em}{}[\vspace{0.2em}\titlerule]
 \titleformat{\subsection}[block]
-  {\large\bfseries}{}{0em}{}
+  {\fontsize{14pt}{0.2em}\bfseries\selectfont}{}{0em}{}
 
 % Custom item spacing
-\setlist[itemize]{leftmargin=1.5em, topsep=0.8em, itemsep=0.5em}
+\setlist[itemize]{leftmargin=1.5em, topsep=0.8em, itemsep=0.2em}
 
 % No indentation
 \setlength\parindent{0pt}
@@ -33,8 +36,8 @@
 % Hyperlink colors
 \hypersetup{
     colorlinks=true,
-    urlcolor=earthbrown,
-    linkcolor=earthbrown
+    urlcolor=saddlebrown,
+    linkcolor=saddlebrown
 }
 
 \pagestyle{empty} % Remove page numbers
@@ -42,9 +45,10 @@
 \begin{document}
 
 \begin{center}
-    {\Huge \textbf{Lucy Lin}} \\
+    {\Huge \textbf{\seriffont Lucy Lin}} \\
     \vspace{0.5em}
-    \href{mailto:lucylin0819@gmail.com}{lucylin0819@gmail.com} \\
+    \makebox[1.5em][l]{\color{saddlebrown}\faIcon{envelope}} \href{mailto:lucylin0819@gmail.com}{lucylin0819@gmail.com} \\
+    \makebox[1.5em][l]{\color{saddlebrown}\faIcon{linkedin}} \href{https://www.linkedin.com/in/lucycylin/}{linkedin.com/in/lucycylin}
 \end{center}
 
 \vspace{0.8em}
@@ -54,8 +58,8 @@ Cloud-focused data engineer with experience in building scalable platforms and i
 
 \section*{EXPERIENCE}
 
-\subsection*{Data Engineer, Titansoft}
-\textit{\color{gray}Oct 2023–Present}
+\subsection*{Data Engineer}
+\textit{\color{gray}Titansoft | Oct 2023–Present}
 \begin{itemize}
     \item Managed 150+ BigQuery assets across 8 departments using Git-based workflows
     \item Built data pipelines and quality checks for SQL Server, Parquet, and Pub/Sub
@@ -64,15 +68,15 @@ Cloud-focused data engineer with experience in building scalable platforms and i
     \item Designed reusable Airflow DAGs and integrated AI tools to cut development time by 80\%
 \end{itemize}
 
-\subsection*{Software Engineer, Ingrasys}
-\textit{\color{gray}Mar 2021–Sep 2023}
+\subsection*{Software Engineer}
+\textit{\color{gray}Ingrasys | Mar 2021–Sep 2023}
 \begin{itemize}
     \item Resolved critical network bug and improved system reliability
     \item Refactored legacy Python code to enhance maintainability
 \end{itemize}
 
-\subsection*{System Integration Engineer, Delta Electronics}
-\textit{\color{gray}Sep 2018–Feb 2021}
+\subsection*{System Integration Engineer}
+\textit{\color{gray}Delta Electronics | Sep 2018–Feb 2021}
 \begin{itemize}
     \item Delivered MES/WMS systems for 1,000+ factory users
     \item Automated ERP data integration, reducing manual processing time
