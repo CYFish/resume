@@ -1,4 +1,4 @@
-\documentclass[a4paper,11pt]{article}
+\documentclass[a4paper,10pt]{article}
 \usepackage[left=2.5cm,right=2.5cm,top=2.5cm,bottom=2.5cm]{geometry}
 \usepackage{titlesec}
 \usepackage{enumitem}
@@ -26,6 +26,8 @@
   {\fontsize{16pt}{0.5em}\bfseries\seriffont\color{darkolivegreen}}{}{0em}{}[\vspace{0.2em}\titlerule]
 \titleformat{\subsection}[block]
   {\fontsize{14pt}{0.2em}\bfseries\selectfont}{}{0em}{}
+\titleformat{\subsubsection}[block]
+  {\fontsize{12pt}{0.2em}\bfseries\selectfont}{}{0em}{}
 
 % Custom item spacing
 \setlist[itemize]{leftmargin=1.5em, topsep=0.8em, itemsep=0.2em}
@@ -61,12 +63,16 @@ Cloud-focused data engineer with experience in building scalable platforms and i
 \subsection*{Data Engineer}
 \textit{\color{gray}Titansoft | Oct 2023–Present}
 \begin{itemize}
-    \item Managed 150+ BigQuery assets across 8 departments using Git-based workflows
-    \item Built data pipelines and quality checks for SQL Server, Parquet, and Pub/Sub
-    \item Implemented IAM CI/CD and audit pipelines for department-level access reviews
-    \item Reduced Tableau extract time from 37 min to 13 sec by optimizing SQL and dashboard filters
-    \item Designed reusable Airflow DAGs and integrated AI tools to cut development time by 80\%
-\end{itemize}
+    \item Managed 150+ BigQuery assets and Git-based workflows across 8 departments
+    \item Automated IAM reviews via CI/CD pipelines for access audits and permission matrix
+    \item Cut query cost from 500 GB to <1 GB by partitioning, clustering, and SQL refactor
+    \item Improved Tableau extract time from 37 min to 13 sec, reducing server CPU usage
+    \item Built pipelines from SQL Server, Parquet, and Pub/Sub with cold backup in GCS
+    \item Designed freshness and consistency checks for real-time alerts and anomaly recovery
+    \item Cut development time for data checks from 4 hours to 30 minutes using reusable Airflow DAG templates and AI-assisted logic design
+    \item Built reusable Airflow templates and integrated AI tools to cut dev time by 80\%
+    \item Developed internal Python SDKs for Slack alerts and extended BQ client workflows
+  \end{itemize}
 
 \subsection*{Software Engineer}
 \textit{\color{gray}Ingrasys | Mar 2021–Sep 2023}
