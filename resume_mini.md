@@ -10,11 +10,15 @@ Cloud-focused data engineer with experience in building scalable platforms and i
 ### Data Engineer, Titansoft  
 *2023.10–Present | Taiwan*
 
-- Managed 150+ BigQuery assets across 8 departments using Git-based workflows
-- Built data pipelines and quality checks for SQL Server, Parquet, and Pub/Sub
-- Implemented IAM CI/CD and audit pipelines for department-level access reviews
-- Reduced Tableau extract time from 37 min to 13 sec by optimizing SQL and dashboard filters
-- Designed reusable Airflow DAGs and integrated AI tools to cut development time by 80%
+- Managed 150+ BigQuery assets and Git-based workflows across 8 departments
+- Automated IAM reviews via CI/CD pipelines for access audits and permission matrix
+- Cut query cost from 500 GB to <1 GB by partitioning, clustering, and SQL refactor
+- Improved Tableau extract time from 37 min to 13 sec, reducing server CPU usage
+- Built pipelines from SQL Server, Parquet, and Pub/Sub with cold backup in GCS
+- Designed freshness and consistency checks for real-time alerts and anomaly recovery
+- Cut development time for data checks from 4 hours to 30 minutes using reusable Airflow DAG templates and AI-assisted logic design
+- Built reusable Airflow templates and integrated AI tools to cut dev time by 80\%
+- Developed internal Python SDKs for Slack alerts and extended BQ client workflows
 
 
 ### Software Engineer, Ingrasys  
